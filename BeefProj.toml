@@ -1,0 +1,12 @@
+FileVersion = 1
+
+[Project]
+Name = "xxHash-beef"
+DefaultNamespace = "xxHash"
+
+[Configs.Debug.Win64]
+CLibType = "DynamicDebug"
+LibPaths = ["$(ProjectDir)\\libs\\debug\\xxHash.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\release\\xxHash.lib"]
