@@ -337,7 +337,7 @@ public static class xxHash
 	/*!
 	* @brief Exit code for the streaming API.
 	*/
-	public enum XXH_errorcode
+	public enum XXH_errorcode : c_int
 	{
 		XXH_OK = 0, /*!< OK */
 		XXH_ERROR /*!< Error */
